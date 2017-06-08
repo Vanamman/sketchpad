@@ -1,21 +1,29 @@
-div {
+* {
+	margin: 0;
+	padding: 0;
+}
 
-	background: black;
-	height: 40px;
-	width: 40px;
-	margin: 1px;
+.cell {
+
 	float: left;
-	display: inline-block;
+
 }
 
 #container {
 
-	height: 673px;
-	width: 673px;
-	background-color: white;
+	margin: 0 auto;
+	height: 500px;
+	width: 500px;
+	border: 2px solid black;
+	overflow: hidden;
+	position: absolute;
 }
 
 .highlighted {
 
-	background-color: blue;
+	background-color: black;
+}
+
+button {
+	margin: 0 auto;
 }
